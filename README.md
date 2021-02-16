@@ -76,7 +76,7 @@ This concludes the config for inbound messages.
 
 Select the `Destination` tab and choose a Connector Type of `Javascript Writer`.
 
-You can double click the Destination name and rename it to something more useful like `mongodb`.
+You can double click the Destination name (`Destination 1`) and rename it to something more useful like `mongodb`.
 
 Next, select the `Edit Transformer` option from the Channel Tasks nav panel. This will open the Transformer screen.
 
