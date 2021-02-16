@@ -86,7 +86,7 @@ Create a `New Step` (1) and give it a name (2). In our example we'll call it `In
 
  Assign `msg` to the `Mapping` and `Default Value` fields (3 & 4). The `msg` variable is a special reserved variable containing the transformed version of the data/message from the Source Connector.
 
- *NOTE:* the variable `msg` contains the entire object. In our example `Avalina.json` is 1.3MB. If you need to filter the object before sending to the Destination, you specify the message segment in the Mapping and Default Value fields. The notation is something like `msg[key][key][key]`
+ *NOTE:* the variable `msg` contains the entire object. In our example, `Avalina.json` is 1.3MB. If you need to filter the object before sending to the Destination, you specify the message segment you want, in the Mapping and Default Value fields. The notation is something like `msg[key][key][key]`
 
 Finally select `Back to Channel` (5) to return to the `Edit Channel` screen.
 
