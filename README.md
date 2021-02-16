@@ -117,7 +117,7 @@ At the Mirth Dashboard double click the destination channel.
 
 ![New Channel](img/3.4.png)
 
-Inspect the `Response` message.
+Inspect the `Response` message. It may take a few moments for Mirth to read the file, process and write it to the Destination before it appears in the Messages section for you to inspect the Response. Pay close attention to the message ID and the time stamps.
 
 ![Response Msg](img/3.5.png)
 
@@ -129,7 +129,7 @@ Make sure Mirth is using `JSON` from Source to Destination.
 
 ![Data Types](img/3.7.png)
 
-If you make any changes, select `OK` and then `Deploy` the channel again and nspect the `Response` messages again (per previous step).
+If you make any changes, select `OK` and then `Deploy` the channel again and inspect the `Response` messages again (per previous step).
 
 If you are observing errors, check you are using the same versions as described in the *Prerequisites* section above. In testing, other version conbinations produced anomolous results at this Step.
 
@@ -143,7 +143,7 @@ Open MongoDB Compass GUI Client.
 
 ![Launch Compass](img/4.0.png)
 
-If you are unsure how to configure the connection string select `Fill in connection fields individually`
+If you are unsure how to configure the connection string, select `Fill in connection fields individually`
 
 ![Connection String](img/4.1.png)
 
@@ -153,11 +153,11 @@ Once connected to the `mongod` service you should see the database (`synthea`) a
 
 ![](img/4.2.png)
 
-Clicking on these you should be able to inspect the FHIR JSON objects.
+Clicking on these you should be able to inspect the FHIR JSON objects, that were written by Mirth.
 
 ![](img/4.3.png)
 
-This concludes the data validation at the final destination.
+This concludes the data validation at the final destination. You should check the contents of the test file `Avalina.json` match the documents in the `patients` collection.
 
 ---
 
