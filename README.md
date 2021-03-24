@@ -26,7 +26,7 @@ Copy the `mongo-java-driver-3.12.7.jar` into a subdirectory inside the Mirth ins
 
 Inside the Mirth install directory, use a text editor to add an entry to the bottom of `conf/dbdrivers.xml` (but inside the closing `</drivers>` tag).
 
-    <driver class"org.mongodb.Driver" name="MongoDB" template="mongodb://localhost:27017/" selectLimit="db.synthea.find( {} )" />
+    <driver class="org.mongodb.Driver" name="MongoDB" template="mongodb://localhost:27017/" selectLimit="db.synthea.find( {} )" />
 
 ![dbdrivers.xml](img/0.1.png "dbdrivers.xml")
 
