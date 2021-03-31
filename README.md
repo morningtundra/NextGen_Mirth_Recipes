@@ -8,7 +8,7 @@ Load a FHIR JSON object into a MongoDB database collection, using the NextGen (M
 2. [MongoDB Compass v 1.21.2](https://www.mongodb.com/try/download/compass) - Community Edition of the MongoDB GUI Client
 3. Java 1.8 - Runtime Environment for Mirth
 4. [NextGen (Mirth) Connect v 3.10](https://www.nextgen.com/products-and-services/nextgen-connect-integration-engine-downloads) - Full Suite including the Mirth GUI Client
-5. [MongoDB Java Driver](https://mongodb.github.io/mongo-java-driver/)  (mongo-java-driver-3.12.7.jar)
+5. [MongoDB Java Driver](https://mongodb.github.io/mongo-java-driver/)  ([mongo-java-driver-3.12.7.jar](https://search.maven.org/search?q=g:org.mongodb))
 
 Ensure the first *four* prerequisites are correctly installed on your system and running without errors.
 
